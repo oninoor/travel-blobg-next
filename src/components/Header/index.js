@@ -9,7 +9,7 @@ export default function Header() {
         <div className="w-28">
           <Logo className="logo-style-1" />
         </div>
-        <div className="w-auto">
+        <nav className="w-auto">
           <ul className="flex items-center">
             <li className="">
               <Link href="/destinations">
@@ -50,7 +50,7 @@ export default function Header() {
               </button>
             </li>
           </ul>
-        </div>
+        </nav>
       </div>
     </header>
   );
