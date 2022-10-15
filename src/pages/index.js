@@ -2,6 +2,7 @@ import Head from "next/head";
 import Header from "components/Header";
 import Hero from "components/Hero";
 import Categories from "components/Categories";
+import Destinations from "components/Destinations";
 
 export default function Home() {
   return (
@@ -25,6 +26,11 @@ export default function Home() {
       {/* Categories */}
       <section className="mb-32">
         <Categories />
+      </section>
+
+      {/* Top Destinations */}
+      <section className="mb-32">
+        <Destinations />
       </section>
     </div>
   );

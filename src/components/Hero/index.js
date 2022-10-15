@@ -64,6 +64,7 @@ export default function Hero() {
                 width="100%"
                 height="100%"
                 src="/images/plane.png"
+                alt="Ornament"
               />
             </div>
             <div className="absolute w-[137px] h-[95px] top-56 right-5 z-10">
@@ -72,6 +73,7 @@ export default function Hero() {
                 width="100%"
                 height="100%"
                 src="/images/plane.png"
+                alt="Ornament"
               />
             </div>
             <div className="relative z-20 transform -translate-x-16">
@@ -81,6 +83,7 @@ export default function Hero() {
                 width="100%"
                 height="100%"
                 src="/images/hero-traveller.png"
+                alt="Traveling Agency"
               />
             </div>
           </div>
