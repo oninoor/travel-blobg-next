@@ -3,6 +3,7 @@ import Header from "components/Header";
 import Hero from "components/Hero";
 import Categories from "components/Categories";
 import Destinations from "components/Destinations";
+import EasyAndFast from "components/EasyAndFast";
 
 export default function Home() {
   return (
@@ -29,8 +30,13 @@ export default function Home() {
       </section>
 
       {/* Top Destinations */}
-      <section className="mb-32">
+      <section className="mb-28">
         <Destinations />
+      </section>
+
+      {/* Easy and Fast */}
+      <section className="mb-28">
+        <EasyAndFast />
       </section>
     </div>
   );

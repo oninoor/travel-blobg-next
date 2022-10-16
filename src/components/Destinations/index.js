@@ -15,9 +15,9 @@ export default function Destinations() {
       </div>
 
       {/* Card */}
-      <div className="flex text-gray-900 relative px-10">
+      <div className="flex text-gray-900 relative">
         {/* Decoration */}
-        <div className="absolute h-64 w-24 right-0 bottom-10">
+        <div className="absolute h-64 w-24 -right-10 bottom-10">
           <DecoreSpiral className="stroke-gray-400" />
         </div>
 
