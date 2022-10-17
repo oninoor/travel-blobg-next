@@ -160,7 +160,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-between items-start mb-20">
             {/* Col Logo */}
-            <div>
+            <div className="w-3/12 pr-10 flex flex-col justify-start">
               <h2 className="text-4xl text-gray-900 mb-5">Jadoo.</h2>
               <p className="text-sm text-gray-500">
                 Book your trip in minute, get full Control for much longer.
@@ -168,7 +168,7 @@ export default function Home() {
             </div>
 
             {/* Col Nav */}
-            <div className="flex justify-between items-start space-x-20">
+            <div className="flex justify-center items-start space-x-20 w-6/12 px-5">
               <div className="flex flex-col">
                 <h3 className="text-xl font-bold text-gray-900 mb-8">
                   Company
@@ -236,7 +236,7 @@ export default function Home() {
             </div>
 
             {/* Col Social */}
-            <div className="flex flex-col">
+            <div className="w-3/12 flex justify-end items-end flex-col pl-5">
               {/* Socials */}
               <div className="flex justify-center items-center space-x-6 text-sm mb-6">
                 <Link href={"#"}>
