@@ -4,6 +4,7 @@ import Hero from "components/Hero";
 import Categories from "components/Categories";
 import Destinations from "components/Destinations";
 import EasyAndFast from "components/EasyAndFast";
+import Testimonials from "components/Testimonials";
 
 export default function Home() {
   return (
@@ -38,6 +39,9 @@ export default function Home() {
       <section className="mb-28">
         <EasyAndFast />
       </section>
+
+      {/* Testimonials */}
+      <Testimonials />
     </div>
   );
 }
